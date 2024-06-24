@@ -12,9 +12,6 @@ name: IPQ60xx_Package
 on:
   repository_dispatch:
   workflow_dispatch:
-  schedule:
-    - cron:  '30 2 * * *'
-    - cron:  '30 8 * * *'
 
 jobs:
 
